@@ -1,13 +1,70 @@
-img {
-    
+/* Index page */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: royalblue;
+    min-height: 100%;
+    color: red ;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    margin-bottom: 20px;
+    background:orange;
+}
+
+nav {
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a.navbar-brand {
+    font-size: 30px;
+}
+
+
+.ul {
+    font-size: 20px;
+}
+
+#mainCard {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+/* image margins */
+.img-thumbnail {
+    max-width: 50%;
+    margin: 50px;
 }
 
 /* footer */
 footer {
-    background-color: grey;
-    padding: 30px;
-    margin-top: 100px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    margin-top: 20px;
+    border-top: 5px;
+    border-color: teal;
+    border-style: solid;
+    background-color: teal;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 60px;
+    background-color: black
 }

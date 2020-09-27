@@ -1,4 +1,15 @@
-.navbar-brand-icon {
-    width: 10px;
-    height: 10px;
+/* ortfolio and Contact Sheets */
+/* Footer */
+footer {
+    background-color: teal;
+    border-top: 8px solid black ; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+}
+
+.card-img-top {
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
 }
